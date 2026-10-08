@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilays — Contact</title>
+  <meta name="description" content="La xiriir Ilays. Foom iimayl ah oo ku salaysan HTML iyo CSS.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%231e463c'/%3E%3Ccircle cx='50' cy='50' r='16' fill='%23d7a441'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,620;1,9..144,500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">U gudub nuxurka</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">Il<span>a</span>ys</a>
+    <input class="menu-check" type="checkbox" id="menu">
+    <label class="menu-btn" for="menu" aria-label="Fur ama xir menu-ga"><span></span></label>
+    <nav class="nav" aria-label="Bogagga">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="wrap page-title">
+      <p class="kicker">Contact</p>
+      <h1>Aan wada hadalno.</h1>
+      <p>Ii soo dir fariin haddii aad rabto website, naqshad, ama wada-shaqayn. Ku beddel iimaylka hoose kan runta ah ka hor intaadan isticmaalin.</p>
+    </header>
+
+    <section class="wrap contact-grid">
+      <div class="panel">
+        <p class="kicker">Iimayl</p>
+        <a class="mail" href="mailto:ilays@email.com">ilays@email.com</a>
+        <p>Fariinta foomka waxay ku furtaa barnaamijka iimaylka ee kombiyuutarkaaga.</p>
+        <ul class="facts">
+          <li><span>Goobta</span><strong>Soomaaliya</strong></li>
+          <li><span>Luqadda</span><strong>Soomaali · English</strong></li>
+          <li><span>Shaqada</span><strong>HTML &amp; CSS</strong></li>
+        </ul>
+      </div>
+
+      <form class="form" action="mailto:ilays@email.com" method="post" enctype="text/plain">
+        <label>
+          Magaca
+          <input type="text" name="Magaca" autocomplete="name" required placeholder="Magacaaga">
+        </label>
+        <label>
+          Iimaylka
+          <input type="email" name="Iimaylka" autocomplete="email" required placeholder="adiga@email.com">
+        </label>
+        <label>
+          Mowduuca
+          <input type="text" name="Mowduuca" required placeholder="Website cusub">
+        </label>
+        <label>
+          Fariinta
+          <textarea name="Fariinta" required placeholder="Ii sheeg waxa aad rabto..."></textarea>
+        </label>
+        <button class="btn btn-fill" type="submit">Dir fariinta</button>
+        <p class="hint">Ma jiro server. Foomku wuxuu furayaa iimayl diyaarsan, si aad u dirto adiga.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Ilays</p>
+    <p>Home · About · Contact</p>
+    <a href="index.html">Ku noqo Home</a>
+  </footer>
+</body>
+</html>
